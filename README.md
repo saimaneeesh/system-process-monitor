@@ -20,7 +20,7 @@ A lightweight Linux system process monitoring tool built in C++. It reads from t
 g++ code.cpp -o procmon -std=c++17
 ```
 
-### ▶ Run with one of the following options:
+###  Run with one of the following options:
 
 | Command                 | Description                             |
 | -----------------------|------------------------------------------|
