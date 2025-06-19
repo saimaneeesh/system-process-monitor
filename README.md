@@ -1,26 +1,26 @@
-# 🧠 System Process Monitor (Linux)
+#  System Process Monitor (Linux)
 
 A lightweight Linux system process monitoring tool built in C++. It reads from the `/proc` filesystem and displays **PID, process name, and memory usage** — with options for live monitoring, CSV export, and individual process inspection.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📊 **Live Monitor**: View real-time memory usage of all running processes.
-- 📁 **CSV Export**: Export all process memory info to `output.csv`.
-- 🏆 **Top N Processes**: List top memory-consuming processes.
-- 🔍 **PID Lookup**: Get memory info for a specific PID.
+-  **Live Monitor**: View real-time memory usage of all running processes.
+-  **CSV Export**: Export all process memory info to `output.csv`.
+-  **Top N Processes**: List top memory-consuming processes.
+-  **PID Lookup**: Get memory info for a specific PID.
 
 ---
 
-## 🧑‍💻 Usage
+##  Usage
 
 ### 🔧 Compile the program:
 ```bash
 g++ code.cpp -o procmon -std=c++17
 ```
 
-### ▶️ Run with one of the following options:
+### ▶ Run with one of the following options:
 
 | Command                 | Description                             |
 | -----------------------|------------------------------------------|
@@ -31,9 +31,9 @@ g++ code.cpp -o procmon -std=c++17
 
 ---
 
-## 📝 Examples
+##  Examples
 
-### 🔴 Live Mode (`live`)
+###  Live Mode (`live`)
 ```bash
 ./procmon live
 ```
@@ -44,7 +44,7 @@ PID: 2446 | Name: brave | Memory: 631100 kB
 ...
 ```
 
-### 📄 CSV Export (`csv`)
+###  CSV Export (`csv`)
 ```bash
 ./procmon csv
 ```
@@ -56,7 +56,7 @@ PID,Name,Memory_kB
 ...
 ```
 
-### 📷 Preview
+###  Preview
 
 #### CSV File
 ![CSV file Preview](images/csv.png)
@@ -66,13 +66,13 @@ PID,Name,Memory_kB
 
 ---
 
-## 📦 Future Roadmap
+##  Future Roadmap
 
 - 📈 Add ncurses-based TUI interface
 
 ---
 
-## 💡 Why This Project?
+##💡 Why This Project?
 
 - Understand the `/proc` filesystem
 - Practice system-level C++ and file handling
