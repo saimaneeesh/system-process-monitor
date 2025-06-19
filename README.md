@@ -15,7 +15,7 @@ A lightweight Linux system process monitoring tool built in C++. It reads from t
 
 ##  Usage
 
-### 🔧 Compile the program:
+###  Compile the program:
 ```bash
 g++ code.cpp -o procmon -std=c++17
 ```
@@ -68,7 +68,7 @@ PID,Name,Memory_kB
 
 ##  Future Roadmap
 
-- 📈 Add ncurses-based TUI interface
+-  Add ncurses-based TUI interface
 
 ---
 
@@ -86,6 +86,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## 📜 License
+##  License
 
 MIT License © 2025 P Sai Maneesh
